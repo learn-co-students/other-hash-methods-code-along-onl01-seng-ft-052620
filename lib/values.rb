@@ -9,5 +9,9 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+  items = []
+  groceries.each do |type, items_array|
+    items = items.concat(items_array)
+  end
+  items
 end
