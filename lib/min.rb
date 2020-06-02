@@ -12,6 +12,4 @@ def get_the_min(groceries)
 
   groceries.values_at(:vegetable)[0][1]
     
-  
-   
   end
